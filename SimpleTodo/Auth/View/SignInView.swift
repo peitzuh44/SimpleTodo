@@ -13,21 +13,44 @@ struct SignInView: View {
 
     var body: some View {
         VStack {
-            SignInWithAppleButton(
-                onRequest: { request in
-                    authManager.prepareRequest(request)
-                },
-                onCompletion: { result in
-                    switch result {
-                    case .success(let authorization):
-                        authManager.signInWithApple(authorization: authorization)
-                    case .failure(let error):
-                        print("Sign in with Apple failed: \(error.localizedDescription)")
+            Spacer()
+            Image("SimpleTodoAppIcon")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 200)
+                .clipShape(RoundedRectangle(cornerRadius: 20.0))
+                .padding()
+            VStack {
+                SignInWithAppleButton(
+                    onRequest: { request in
+                        authManager.prepareRequest(request)
+                    },
+                    onCompletion: { result in
+                        switch result {
+                        case .success(let authorization):
+                            authManager.signInWithApple(authorization: authorization)
+                        case .failure(let error):
+                            print("Sign in with Apple failed: \(error.localizedDescription)")
+                        }
                     }
+                )
+                .signInWithAppleButtonStyle(.black)
+                .frame(width: 280, height: 60)
+                
+                Button {
+                    authManager.signInAnonymously()
+                } label: {
+                    Text("Sign In Anonymously")
+                        .foregroundStyle(Color.white)
+                        .frame(width: 280, height: 60)
+                        .background(
+                            RoundedRectangle(cornerRadius: 8.0)
+                                .fill(Color.orange)
+                        )
                 }
-            )
-            .signInWithAppleButtonStyle(.black)
-            .frame(width: 280, height: 60)
+            }
+
+            Spacer()
         }
         .padding()
     }

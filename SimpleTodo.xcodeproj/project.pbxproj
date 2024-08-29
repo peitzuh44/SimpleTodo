@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF30B4BB2C7F215E0035858F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30B4BA2C7F215E0035858F /* AuthManager.swift */; };
+		AF30B4BD2C7F21A90035858F /* AppleSignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30B4BC2C7F21A90035858F /* AppleSignInCoordinator.swift */; };
+		AF30B4BF2C7F21D90035858F /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30B4BE2C7F21D90035858F /* AuthView.swift */; };
+		AF30B4C12C7F21FD0035858F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30B4C02C7F21FD0035858F /* SignInView.swift */; };
+		AF30B4C32C7F23430035858F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30B4C22C7F23430035858F /* SettingsView.swift */; };
+		AF30B4C52C7F3FB20035858F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF30B4C42C7F3FB20035858F /* GoogleService-Info.plist */; };
+		AF30B4CD2C8081800035858F /* TodoViewNotSignedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30B4CC2C8081800035858F /* TodoViewNotSignedIn.swift */; };
 		AF964BD82C7D7057005B2301 /* SimpleTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BD72C7D7057005B2301 /* SimpleTodoApp.swift */; };
-		AF964BDA2C7D7057005B2301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BD92C7D7057005B2301 /* ContentView.swift */; };
 		AF964BDC2C7D705B005B2301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF964BDB2C7D705B005B2301 /* Assets.xcassets */; };
 		AF964BDF2C7D705B005B2301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF964BDE2C7D705B005B2301 /* Preview Assets.xcassets */; };
+		AF964BE92C7D711D005B2301 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BE82C7D711D005B2301 /* TodoView.swift */; };
+		AF964BEB2C7D7258005B2301 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BEA2C7D7258005B2301 /* TodoViewModel.swift */; };
+		AF964BED2C7D729E005B2301 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BEC2C7D729E005B2301 /* Todo.swift */; };
+		AF964BEF2C7D735B005B2301 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BEE2C7D735B005B2301 /* AddView.swift */; };
+		AF964BF42C7D77C4005B2301 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AF964BF32C7D77C4005B2301 /* FirebaseFirestore */; };
+		AF964BFB2C7DA431005B2301 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964BFA2C7DA431005B2301 /* EditView.swift */; };
+		AF964BFD2C7DAE0F005B2301 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF964BFC2C7DAE0F005B2301 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF30B4BA2C7F215E0035858F /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		AF30B4BC2C7F21A90035858F /* AppleSignInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInCoordinator.swift; sourceTree = "<group>"; };
+		AF30B4BE2C7F21D90035858F /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		AF30B4C02C7F21FD0035858F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		AF30B4C22C7F23430035858F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AF30B4C42C7F3FB20035858F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF30B4CC2C8081800035858F /* TodoViewNotSignedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewNotSignedIn.swift; sourceTree = "<group>"; };
 		AF964BD42C7D7057005B2301 /* SimpleTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF964BD72C7D7057005B2301 /* SimpleTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTodoApp.swift; sourceTree = "<group>"; };
-		AF964BD92C7D7057005B2301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF964BDB2C7D705B005B2301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF964BDE2C7D705B005B2301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF964BE82C7D711D005B2301 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		AF964BEA2C7D7258005B2301 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		AF964BEC2C7D729E005B2301 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		AF964BEE2C7D735B005B2301 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		AF964BFA2C7DA431005B2301 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		AF964BFE2C7DAE72005B2301 /* SimpleTodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleTodo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +51,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF964BF42C7D77C4005B2301 /* FirebaseFirestore in Frameworks */,
+				AF964BFD2C7DAE0F005B2301 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF30B42B2C7DB8290035858F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AF30B4C62C7F3FEA0035858F /* View */,
+				AF30B4B92C7F21480035858F /* Logic */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AF30B4B92C7F21480035858F /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				AF30B4BA2C7F215E0035858F /* AuthManager.swift */,
+				AF30B4BC2C7F21A90035858F /* AppleSignInCoordinator.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		AF30B4C62C7F3FEA0035858F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF30B4BE2C7F21D90035858F /* AuthView.swift */,
+				AF30B4C02C7F21FD0035858F /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF30B4C72C7F3FFF0035858F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AF964BE52C7D70BC005B2301 /* View */,
+				AF964BE72C7D70CB005B2301 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		AF964BCB2C7D7057005B2301 = {
 			isa = PBXGroup;
 			children = (
 				AF964BD62C7D7057005B2301 /* SimpleTodo */,
 				AF964BD52C7D7057005B2301 /* Products */,
+				AF964BF52C7D784A005B2301 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				AF964BD72C7D7057005B2301 /* SimpleTodoApp.swift */,
-				AF964BD92C7D7057005B2301 /* ContentView.swift */,
-				AF964BDB2C7D705B005B2301 /* Assets.xcassets */,
+				AF964BFE2C7DAE72005B2301 /* SimpleTodo.entitlements */,
+				AF30B4C42C7F3FB20035858F /* GoogleService-Info.plist */,
+				AF30B42B2C7DB8290035858F /* Auth */,
+				AF964BE62C7D70C4005B2301 /* Model */,
+				AF30B4C72C7F3FFF0035858F /* Main */,
 				AF964BDD2C7D705B005B2301 /* Preview Content */,
+				AF964BDB2C7D705B005B2301 /* Assets.xcassets */,
 			);
 			path = SimpleTodo;
 			sourceTree = "<group>";
@@ -65,6 +133,41 @@
 				AF964BDE2C7D705B005B2301 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF964BE52C7D70BC005B2301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF964BE82C7D711D005B2301 /* TodoView.swift */,
+				AF964BEE2C7D735B005B2301 /* AddView.swift */,
+				AF964BFA2C7DA431005B2301 /* EditView.swift */,
+				AF30B4C22C7F23430035858F /* SettingsView.swift */,
+				AF30B4CC2C8081800035858F /* TodoViewNotSignedIn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF964BE62C7D70C4005B2301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF964BEC2C7D729E005B2301 /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF964BE72C7D70CB005B2301 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF964BEA2C7D7258005B2301 /* TodoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF964BF52C7D784A005B2301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +186,10 @@
 			dependencies = (
 			);
 			name = SimpleTodo;
+			packageProductDependencies = (
+				AF964BF32C7D77C4005B2301 /* FirebaseFirestore */,
+				AF964BFC2C7DAE0F005B2301 /* FirebaseAuth */,
+			);
 			productName = SimpleTodo;
 			productReference = AF964BD42C7D7057005B2301 /* SimpleTodo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +218,9 @@
 				Base,
 			);
 			mainGroup = AF964BCB2C7D7057005B2301;
+			packageReferences = (
+				AF964BF22C7D77C4005B2301 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AF964BD52C7D7057005B2301 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +237,7 @@
 			files = (
 				AF964BDF2C7D705B005B2301 /* Preview Assets.xcassets in Resources */,
 				AF964BDC2C7D705B005B2301 /* Assets.xcassets in Resources */,
+				AF30B4C52C7F3FB20035858F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +248,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF964BDA2C7D7057005B2301 /* ContentView.swift in Sources */,
+				AF964BEB2C7D7258005B2301 /* TodoViewModel.swift in Sources */,
+				AF30B4BB2C7F215E0035858F /* AuthManager.swift in Sources */,
+				AF964BE92C7D711D005B2301 /* TodoView.swift in Sources */,
+				AF30B4CD2C8081800035858F /* TodoViewNotSignedIn.swift in Sources */,
+				AF964BEF2C7D735B005B2301 /* AddView.swift in Sources */,
+				AF30B4C12C7F21FD0035858F /* SignInView.swift in Sources */,
+				AF964BFB2C7DA431005B2301 /* EditView.swift in Sources */,
+				AF30B4BD2C7F21A90035858F /* AppleSignInCoordinator.swift in Sources */,
 				AF964BD82C7D7057005B2301 /* SimpleTodoApp.swift in Sources */,
+				AF964BED2C7D729E005B2301 /* Todo.swift in Sources */,
+				AF30B4BF2C7F21D90035858F /* AuthView.swift in Sources */,
+				AF30B4C32C7F23430035858F /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleTodo/SimpleTodo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleTodo/Preview Content\"";
@@ -278,18 +400,23 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huang.com.SimpleTodo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.SimpleTodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleTodo/SimpleTodo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleTodo/Preview Content\"";
@@ -307,18 +435,23 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huang.com.SimpleTodo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huang.SimpleTodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +477,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF964BF22C7D77C4005B2301 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF964BF32C7D77C4005B2301 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF964BF22C7D77C4005B2301 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AF964BFC2C7DAE0F005B2301 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF964BF22C7D77C4005B2301 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF964BCC2C7D7057005B2301 /* Project object */;
 }
